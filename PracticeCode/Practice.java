@@ -17,7 +17,7 @@ public class Practice {
         // Swiping left (dequeueing the first element)
         System.out.println("Swiped Left On: " + queue.poll());
 
-        // Printing the updated queue after the swipe
+        // Print the updated queue after the swipe
         System.out.println("Whose left on the Dating List: " + queue);
     }
 }
