@@ -61,7 +61,17 @@ public class List2Lab {
             return true;
         }
     
-        // Add additional methods like add, size, etc.
+        // Add additional methods 
+        public static void main(String[] args) {
+            LList2Lab<Integer> list1 = new LList2Lab<>();
+            list1.add(1);
+            list1.add(2);
+            list1.add(3);
+            list1.add(2);
+            System.out.println("Last index of 2: " + list1.getLastIndex(2)); // Should print 3
+            System.out.println("Are the lists equal? " + list1.equals(list2)); // Should compare two linked lists
+        }
+        
     }
     
     
