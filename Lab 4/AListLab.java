@@ -35,7 +35,17 @@ public class AListLab {
             return true;
         }
     
-        // Add additional methods like constructor, size, etc.
+        // Adding additional methods
+        public static void main(String[] args) {
+            AListLab<Integer> list1 = new AListLab<>();
+            list1.add(1);
+            list1.add(2);
+            list1.add(3);
+            list1.add(2);
+            System.out.println("Last index of 2: " + list1.getLastIndex(2)); // Should print 3
+            System.out.println("Are the lists equal? " + list1.equals(list2)); // Should compare two lists
+        }
+        
     }
     
     
