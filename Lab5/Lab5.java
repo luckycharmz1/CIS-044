@@ -1,7 +1,7 @@
 import java.util.*;
+
 package Lab5;
 
-public class Lab5 {
     public class Lab5 {
 
         // Problem 1: Binary Search Method (Iterative)
@@ -74,5 +74,3 @@ public class Lab5 {
     }
     
     
-
-}
