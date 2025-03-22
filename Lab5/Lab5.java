@@ -1,3 +1,4 @@
+import java.util.*;
 package Lab5;
 
 public class Lab5 {
